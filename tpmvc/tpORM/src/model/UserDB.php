@@ -1,6 +1,7 @@
 <?php
 namespace src\model;
 use libs\system\Model;
+use User;
 
 class UserDB extends Model
 {

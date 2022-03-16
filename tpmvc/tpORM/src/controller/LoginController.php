@@ -8,7 +8,7 @@ class LoginController extends Controller
     private $userdao;
     public function __construct() {
         parent::__construct();
-        $this->userdao = new UserDB();
+        // $this->userdao = new UserDB();
     }
     /**
      * http://localhost/tpmvc/tpORM/Login/index

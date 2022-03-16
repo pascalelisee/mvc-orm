@@ -12,7 +12,7 @@ class View
         switch ($num) {
             case 1:
                 
-                $url = 'http://localhost/tpmvc/tpORM/';
+                $url = 'http://localhost/isi/helpOther/tpmvc/mvc-orm/tpmvc/tpORM/';
                 $file="src/view/".$args[0].".php";
                 
                 if (file_exists($file)) {
@@ -27,7 +27,7 @@ class View
                 if (file_exists($file)) {
                     $data=$args[1];
                  
-                    $url = 'http://localhost/tpmvc/tpORM/public/';
+                    $url = 'http://localhost/isi/helpOther/tpmvc/mvc-orm/tpmvc/tpORM/';
                    require_once $file;
                 }else {
                     die($file." n'existe pas comme vue");
